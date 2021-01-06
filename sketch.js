@@ -39,6 +39,7 @@ function draw() {
       wall.shapeColor=color(0,255,0)
     }
     }
+    }
   function hasCollided(Lbullet, Lwall)
   {
     bulletRightEdge=Lbullet.x +Lbullet.width;
@@ -49,3 +50,4 @@ function draw() {
     }
     return false;
   }
+}
